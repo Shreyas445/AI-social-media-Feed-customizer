@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Feed Blocker",
+  "version": "1.0",
+  "description": "Block Instagram & YouTube content based on keywords.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.youtube.com/*", "https://www.instagram.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "https://www.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

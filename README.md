@@ -1,7 +1,9 @@
-Many people have tierd of seeing their feed repeated or unappropiate.
+Many people have tierd of seeing their feed repeated or inappropiate.
+
 so we made a feed customizer that can help you make your feed optimized
 
-how to install
+how to install?
+
 download the .zip file, extract it.
 enable developer mode in your browser extension settings
 add the folder to it
